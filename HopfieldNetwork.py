@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 
-image_prefix = 'face' # prefix for image files
-side = 128 # side length of the image
-num_patterns = 2
+image_prefix = 'pattern' # prefix for image files
+side = 50 # side length of the image
+num_patterns = 5
 n = side * side # number of neurons (pixels)
 imgs=[]
 
